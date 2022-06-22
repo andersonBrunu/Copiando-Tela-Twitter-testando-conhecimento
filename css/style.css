@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+main article{
+    min-width: 46.5vw;
+    height: 92vh;
+    background: rgba(211, 211, 211, 0.418) url('../img/Twitter-principal.png') center center no-repeat;
+    background-size: cover;
+}
+
+main aside{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+main aside img{
+    width: 45px;
+}
+
+main aside h1 {
+    margin-top: 18px;
+    font-size: 3.5em;
+    text-align: left;
+}
+
+main aside h2{
+    font-size: 1.5em;
+}
+
+form#form-criar-conta{
+    width: 300px;
+}
+
+form#form-criar-conta input{
+    font-weight: bolder;
+    font-size: 0.9em;
+    height: 40px;
+    width: 20vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+form#form-criar-conta input:hover{
+   cursor: pointer;
+   background-color: rgb(224, 223, 223);
+}
+form#form-criar-conta input#input-celular{
+   background-color:#36B9FF;
+   color: white;
+}
+form#form-criar-conta input#input-celular:hover{
+    background-color:#30a1dd;
+    cursor: pointer;
+    
+ }
+form#form-criar-conta> p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+form div#termos-form-nova-conta p{
+    font-size: 0.6em;
+    text-align: justify;
+    margin-top: 5px;
+    color: #71767B;
+}
+form div#termos-form-nova-conta p a{
+    text-decoration: none;
+    color: #36B9FF;
+    font-size: 1em;
+}
+form div#termos-form-nova-conta p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  
+}
+
+main aside h3{
+    font-weight: 900;
+}
+
+form#form-existe-conta input{
+    font-weight: bolder;
+    font-size: 0.9em;
+    height: 40px;
+    width: 20vw;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: #36B9FF;
+    border: 1px solid white;
+}
+
+form#form-existe-conta input:hover{
+    cursor: pointer;
+    background-color: #0c29384d;
+}
+
+footer p{
+    position: absolute;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #71767B;
+    font-size: 0.8em;
+}
+
+footer a{ 
+    color: #71767B;
+    font-size: 1em;
+    text-decoration: none;
+    margin-right: 6px;
+}
+ footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
